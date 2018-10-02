@@ -58,7 +58,20 @@
       "properties": {
         "definition": {
           "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
-          "actions": {},
+          "actions": {
+            "Function1": {
+              "type": "Function",
+              "inputs": {
+                "body": {
+                  "name": "Miko"
+                },
+                "function": {
+                  "id": "/subscriptions/aa64316f-705f-4ff5-ba78-24e7b5f0ef68/resourceGroups/vsRepo/providers/Microsoft.Web/sites/vsFunction20181002085104/functions/Function1"
+                }
+              },
+              "runAfter": {}
+            }
+          },
           "parameters": {},
           "triggers": {
             "Recurrence": {
