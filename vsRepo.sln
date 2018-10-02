@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "vsRepo", "vsRepo\vsRepo.deployproj", "{42205372-E6B7-4ADA-B308-CE78556AE201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42205372-E6B7-4ADA-B308-CE78556AE201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42205372-E6B7-4ADA-B308-CE78556AE201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42205372-E6B7-4ADA-B308-CE78556AE201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42205372-E6B7-4ADA-B308-CE78556AE201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97A9DC88-2542-4D3D-B93F-9A4FAFFC6D08}
+	EndGlobalSection
+EndGlobal
