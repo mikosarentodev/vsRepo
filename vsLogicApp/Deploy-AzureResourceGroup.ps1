@@ -10,7 +10,7 @@ Param(
     [string] $TemplateParametersFile = 'LogicApp.parameters.json',
     [string] $ArtifactStagingDirectory = '.',
     [string] $DSCSourceFolder = 'DSC',
-    [switch] $ValidateOnly
+    [switch] $ValidateOnly 
 )
 
 try {
